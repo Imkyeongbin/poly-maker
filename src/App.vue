@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <PolyMaker />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PolyMaker from './pages/PolyMaker.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PolyMaker
   }
 }
 </script>
@@ -23,6 +22,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+
+  min-width: 100vw;
+  height: 100%;
+  background-color: antiquewhite;
 }
 </style>
